@@ -22,7 +22,7 @@ class ApplicationController < Sinatra::Base
     	redirect "/login"
   	else #will return false if user can't be saved b/c no pw
     	redirect "/failure"
-  end
+  	end
 	end
 
 	get "/login" do
